@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    #PX-VIEWPORT-DESIGN
+\*------------------------------------*/
+
+/**
+* Define a default max viewport
+*/
+
+@import "../inuit-responsive-settings/settings.responsive";
+@import "../inuit-responsive-tools/tools.responsive";
+@import "../px-functions-design/tools.functions";
+
+// $desk-wide-width amount should be the widest viewport required and be the same as the widest breakpoint defined.
+$desk-wide-width    : 75em !default;
+$breakpoints        : append($breakpoints, ("desk-wide" "screen and (min-width: 75em)"));
+
+@if import-once('base.viewport') {
+
+  .viewport {
+    width: 98%;
+    max-width: $desk-wide-width;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1%;
+    padding-left: 1%;
+    @include media-query(desk-wide) {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+}
