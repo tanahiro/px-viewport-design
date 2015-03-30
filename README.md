@@ -7,19 +7,19 @@ Default viewport definition for Predix Experience.
 Px's Viewport module depends on two other Px and inuitcss modules:
 
 * [tools.responsive](https://github.com/inuitcss/tools.responsive)
-* [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
+* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-viewport-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-viewport-design.git
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
     @import "../px-viewport-design/base.viewport";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
