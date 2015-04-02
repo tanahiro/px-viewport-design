@@ -11,8 +11,8 @@
 @import "../px-functions-design/tools.functions";
 
 // $desk-wide-width amount should be the widest viewport required and be the same as the widest breakpoint defined.
-$desk-wide-width    : 75em !default;
-$breakpoints        : append($breakpoints, ("desk-wide" "screen and (min-width: 75em)"));
+$desk-wide-width    : 75rem !default;
+$breakpoints        : append($breakpoints, ("desk-wide" "screen and (min-width: 75rem)"));
 
 @if import-once('base.viewport') {
 
