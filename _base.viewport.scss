@@ -12,7 +12,15 @@
 
 // $desk-wide-width amount should be the widest viewport required and be the same as the widest breakpoint defined.
 $desk-wide-width    : 75rem !default;
-$breakpoints        : append($breakpoints, ("desk-wide" "screen and (min-width: 75rem)"));
+$breakpoints: (
+    "palm"          "screen and (max-width: 44.9375rem)",
+    "lap"           "screen and (min-width: 45rem) and (max-width: 63.9375rem)",
+    "lap-and-up"    "screen and (min-width: 45rem)",
+    "portable"      "screen and (max-width: 63.9375rem)",
+    "desk"          "screen and (min-width: 64rem)",
+    "desk-wide"     "screen and (min-width: 75rem)",
+    "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)"
+);
 
 @if import-once('base.viewport') {
 
