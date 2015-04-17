@@ -6,19 +6,20 @@
 * Define a default max viewport
 */
 
+@import "../px-defaults-design/settings.defaults";
 @import "../inuit-responsive-settings/settings.responsive";
 @import "../inuit-responsive-tools/tools.responsive";
 @import "../px-functions-design/tools.functions";
 
 // $desk-wide-width amount should be the widest viewport required and be the same as the widest breakpoint defined.
-$desk-wide-width    : 75rem !default;
+$desk-wide-width    : 80rem !default;
 $breakpoints: (
-    "palm"          "screen and (max-width: 44.9375rem)",
-    "lap"           "screen and (min-width: 45rem) and (max-width: 63.9375rem)",
-    "lap-and-up"    "screen and (min-width: 45rem)",
-    "portable"      "screen and (max-width: 63.9375rem)",
-    "desk"          "screen and (min-width: 64rem)",
-    "desk-wide"     "screen and (min-width: 75rem)",
+    "palm"          "screen and (max-width: 47.9375rem)",
+    "lap"           "screen and (min-width: 48rem) and (max-width: 68.204166667rem)",
+    "lap-and-up"    "screen and (min-width: 48rem)",
+    "portable"      "screen and (max-width: 68.204166667rem)",
+    "desk"          "screen and (min-width: 68.266666667rem)",
+    "desk-wide"     "screen and (min-width: 80rem)",
     "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)"
 );
 

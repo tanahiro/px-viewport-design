@@ -6,6 +6,7 @@ Default viewport definition for Predix Experience.
 
 Px's Viewport module depends on two other Px and inuitcss modules:
 
+* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
 * [tools.responsive](https://github.com/inuitcss/tools.responsive)
 * [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 
