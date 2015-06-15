@@ -4,9 +4,8 @@
 /// @group px-viewport-design
 ////
 
-@import "../inuit-responsive-settings/settings.responsive";
-@import "../px-functions-design/tools.functions";
-@import "../inuit-responsive-tools/tools.responsive";
+@import "inuit-responsive-settings/_settings.responsive.scss";
+@import "inuit-responsive-tools/_tools.responsive.scss";
 
 /// @type Number [default] - Widest viewport
 $desk-wide-width    : 80rem !default;
@@ -22,24 +21,20 @@ $breakpoints: (
     "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)"
 );
 
-@if import-once('base.viewport') {
-
-  .viewport {
-    width: 98%;
-    max-width: $desk-wide-width;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1%;
-    padding-left: 1%;
-    @include media-query(desk-wide) {
-      width: 100%;
-      padding-right: 0;
-      padding-left: 0;
-    }
+.viewport {
+  width: 98%;
+  max-width: $desk-wide-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  @include media-query(desk-wide) {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
   }
-  
-  .viewport--full-height {
-    min-height: 100vh;
-  }
+}
 
+.viewport--full-height {
+  min-height: 100vh;
 }
