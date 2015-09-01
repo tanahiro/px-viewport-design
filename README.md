@@ -8,7 +8,7 @@ You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px
 
 ## Upstream dependency
 
-The Viewport module is also an upstream dependency in this meta kit:
+The Viewport module is an upstream dependency in this meta kit:
 
 * [px-starter-kit-design](https://github.build.ge.com/PXd/px-starter-kit-design)
 
