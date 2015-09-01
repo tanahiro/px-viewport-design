@@ -6,13 +6,6 @@ Default viewport parameters for Predix Experience.
 
 You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-viewport-design/sassdoc
 
-## Dependencies
-
-Px's Viewport module depends on one other Px and one other inuitcss modules:
-
-* [tools.responsive](https://github.com/inuitcss/tools.responsive)
-* [px-functions-design](https://github.build.ge.com/PXd/px-functions-design)
-
 ## Upstream dependency
 
 The Viewport module is also an upstream dependency in this meta kit:
