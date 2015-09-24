@@ -2,9 +2,7 @@
 
 Default viewport parameters for Predix Experience.
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-viewport-design/sassdoc
 
 ## Upstream dependency
 
