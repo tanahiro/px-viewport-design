@@ -4,8 +4,14 @@
 /// @group px-viewport-design
 ////
 
+/// @type Number [default] - Viewport width
+$desk-wide-width    : 100% !default;
+
 /// @type Number [default] - Widest viewport
-$desk-wide-width    : 80rem !default;
+$desk-wide-max-width: 80rem !default;
+
+/// @type Number [default] - Left and Right margin on viewport
+$viewport-margin    : auto !default;
 
 /// @type List | String - Array of different breakpoints
 $breakpoints: (
@@ -19,10 +25,10 @@ $breakpoints: (
 );
 
 .viewport {
-  width: 100%;
-  max-width: $desk-wide-width;
-  margin-right: auto;
-  margin-left: auto;
+  width: $desk-wide-width;
+  max-width: $desk-wide-max-width;
+  margin-right: $viewport-margin;
+  margin-left: $viewport-margin;
 }
 
 .viewport--full-height {
